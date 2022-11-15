@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5C0019112920084D00495551 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0019102920084D00495551 /* SettingsView.swift */; };
 		5C0019132922BAB700495551 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0019122922BAB700495551 /* SettingsLabelView.swift */; };
+		5C0019152924015600495551 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0019142924015600495551 /* SettingsRowView.swift */; };
 		5C6926A52916C39000EBD211 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6926A42916C39000EBD211 /* FruitCardView.swift */; };
 		5C6926A72916CCE400EBD211 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6926A62916CCE400EBD211 /* StartButtonView.swift */; };
 		5C6926A929182F8C00EBD211 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6926A829182F8C00EBD211 /* OnBoardingView.swift */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		5C0019102920084D00495551 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		5C0019122922BAB700495551 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		5C0019142924015600495551 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsRowView.swift; path = Fructus/SettingsRowView.swift; sourceTree = SOURCE_ROOT; };
 		5C6926A42916C39000EBD211 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FruitCardView.swift; path = Fructus/FruitCardView.swift; sourceTree = SOURCE_ROOT; };
 		5C6926A62916CCE400EBD211 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		5C6926A829182F8C00EBD211 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 		5C6926A32916C35B00EBD211 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5C0019142924015600495551 /* SettingsRowView.swift */,
 				5C6926A42916C39000EBD211 /* FruitCardView.swift */,
 				5C6926A62916CCE400EBD211 /* StartButtonView.swift */,
 				5CA3BA59291AE0AB00B9FDB3 /* FruitRowView.swift */,
@@ -207,6 +210,7 @@
 			files = (
 				5C6926AF291969DA00EBD211 /* FruitData.swift in Sources */,
 				5CA3BA60291E78B100B9FDB3 /* SourceLinkView.swift in Sources */,
+				5C0019152924015600495551 /* SettingsRowView.swift in Sources */,
 				5C6926A52916C39000EBD211 /* FruitCardView.swift in Sources */,
 				5CA3BA5A291AE0AB00B9FDB3 /* FruitRowView.swift in Sources */,
 				5CA3BA62291EB8CE00B9FDB3 /* FruitNutrientsView.swift in Sources */,
